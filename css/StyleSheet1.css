@@ -1,0 +1,518 @@
+﻿body
+{
+    width: 1614px;
+    margin: 0px;
+    margin: 0 auto;
+}
+
+div
+{
+    margin: 0;
+    padding: 0;
+}
+.remind
+{
+    padding:0 205px;
+}
+.remind span
+{
+  font-size:11px;
+}
+    .remind a
+    {
+        color:green;
+    }
+    #notremind
+    {
+     float:right;
+     color:rgb(160,160,160);
+     text-decoration:none;
+    }
+.head
+{
+    padding-top: 34px;
+}
+
+span
+{
+    font-size: 20px;
+    margin-right: 34px;
+}
+
+.logo
+{
+    color: green;
+    padding-right: 10px;
+    margin: 0 10px 34px 208px;
+    border-right: 1px solid #808080;
+}
+
+.follow
+{
+    display: inline-block;
+    color: white;
+    background-color: green;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.fans
+{
+    font-size: 13px;
+    margin-right: 418px;
+}
+
+.head a
+{
+    padding-left: 55px;
+    text-decoration: none;
+    color: black;
+}
+
+.head img
+{
+    margin-left: 25px;
+}
+
+.head a:hover
+{
+    color: green;
+}
+
+.playlist
+{
+    position: relative;
+    overflow: hidden;
+}
+    .playlist li
+    {
+        position:absolute;
+    }
+
+    .playlist li, .playlist ul
+    {
+        padding: 0px;
+        list-style: none;
+    }
+    .playlist ul
+    {
+        float:left;
+        overflow:hidden;
+        height:460px;
+    }
+    .playlist img
+    {
+        height: 460px;
+        text-align: center;
+    }
+
+.pbtn
+{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+    .pbtn a
+    {
+        cursor: pointer;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+        .pbtn a.active, .pbtn a:hover
+        {
+            background-color: black;
+        }
+
+.intro
+{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color:#ffffff;
+}
+
+.info
+{
+    display: inline-block;
+    width: 340px;
+    text-align: left;
+    margin: 0 85px;
+}
+
+    .info div
+    {
+        float: left;
+        width: 80px;
+        height: 80px;
+        background: #808080;
+        position: relative;
+        top: 40px;
+    }
+
+    .info p, .info h5, .info a
+    {
+        margin-left: 100px;
+    }
+
+#info0
+{
+    background-image: url(../img/info.png);
+}
+
+#info1
+{
+    background-image: url(../img/info.png);
+    background-position: 80px 0px;
+}
+
+#info2
+{
+    background-image: url(../img/info.png);
+    background-position: 160px 0px;
+}
+
+.info h5
+{
+    font-size: 20px;
+    margin-bottom: 23px;
+    font-weight: normal;
+}
+
+.info p
+{
+    font-size: 14px;
+}
+
+.info a
+{
+    text-decoration: none;
+    color: green;
+}
+
+    .info a:hover
+    {
+        text-decoration: underline;
+    }
+
+.mainBot
+{
+    display: table;
+    margin: 0 auto;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.lesson
+{
+    width: 965px;
+    height: auto;
+    float: left;
+}
+
+.lestit
+{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(241,241,241);
+    box-shadow: 2px 2px 1px 1px #888888;
+}
+
+.lestitle1
+{
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    float: left;
+}
+
+.lestitle2
+{
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.leslist
+{
+    margin-top: 30px;
+}
+
+.lesinfo
+{
+    width: 222px;
+    height: 228px;
+    border: 1px solid rgb(241,241,241);
+    margin: 0 13px 13px 0;
+    display: inline-block;
+}
+
+    .lesinfo:hover
+    {
+        color:green;
+        cursor:pointer;
+        box-shadow:3px 3px 3px #808080;
+    }
+    .lesinfo p
+    {
+        font-size: 11px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin: 5px 5px;
+    }
+
+    .lesinfo img + p:hover
+    {
+        text-decoration: underline;
+    }
+
+    .lesinfo span
+    {
+        font-size: 11px;
+        color: #808080;
+        margin: 10px 5px;
+    }
+
+    .lesinfo .stunum
+    {
+        border: 1px solid #808080;
+        border-radius: 2px;
+        margin: 5px 5px;
+        width: 40px;
+        height: 16px;
+    }
+
+.stunum img
+{
+    margin: 3px 0 3px 3px;
+}
+
+.stunum span
+{
+    font-size: 9px;
+    position: relative;
+    bottom: 5px;
+}
+
+.lesinfo .price
+{
+    color: red;
+}
+
+.pages
+{
+    float: right;
+}
+
+    .pages a:first-child, .pages a:last-child, .pages a.active
+    {
+        background-color: rgb(157,216,177);
+    }
+
+    .pages a
+    {
+        font-size: 11px;
+        padding: 2px 4px;
+    }
+
+        .pages a:hover
+        {
+            color: green;
+            cursor: pointer;
+        }
+
+.mainRight
+{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.organ
+{
+    width: 222px;
+    margin: 0;
+}
+
+    .organ h5, .rank h5
+    {
+        padding: 20px;
+        border: 1px solid rgb(235,235,235);
+        border-bottom: 2px solid rgb(221,221,221);
+        margin-bottom: 0px;
+    }
+
+    .organ h5
+    {
+        margin-top: 0px;
+    }
+
+.rank h5
+{
+    margin-top: 20px;
+}
+
+.organ div, .rank div
+{
+    font-size: 14px;
+    border: 1px solid rgb(235,235,235);
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.rank ul
+{
+    padding: 0px;
+}
+
+.rank li
+{
+    list-style: none;
+}
+
+    .rank li div
+    {
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        float: left;
+        background-image: url(../img/rank.png);
+        margin-right: 12px;
+    }
+
+    .rank li p
+    {
+        font-size: 14px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        cursor: pointer;
+    }
+
+        .rank li p:hover
+        {
+            text-decoration: underline;
+            color: green;
+        }
+
+    .rank li span
+    {
+        font-size: 9px;
+    }
+
+        .rank li span img
+        {
+            margin-right: 3px;
+        }
+
+.foot
+{
+    width: 100%;
+    background-color: #2c3339;
+    margin-top: 120px;
+    padding: 80px 0;
+}
+
+    .foot ul
+    {
+        float: left;
+    }
+
+.footBot ul:first-child
+{
+    margin-right: 120px;
+}
+
+.foot ul:nth-child(2)
+{
+    margin-right: 100px;
+}
+
+.foot ul:nth-child(3)
+{
+    margin-right: 70px;
+}
+
+.foot li img
+{
+    padding-left: 12px;
+}
+
+.footBot
+{
+    overflow: hidden;
+    margin: 0 auto;
+    display: table;
+}
+
+.foot li
+{
+    list-style: none;
+    margin: 0 auto;
+    color: rgb(160,160,160);
+    margin: 14px;
+}
+
+    .foot li:first-child
+    {
+        font-size: 12px;
+    }
+
+    .foot li a
+    {
+        text-decoration: none;
+        color: rgb(160,160,160);
+    }
+        .foot li a:hover
+        {
+            text-decoration:underline;
+
+        }
+
+.netease li:first-child
+{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+    .netease li:first-child span
+    {
+        margin-right: 10px;
+        height: 19px;
+    }
+
+    .netease li:first-child div
+    {
+        display: inline-block;
+        height: 15px;
+        width: 1px;
+        background-color: green;
+        margin-right: 10px;
+    }
+
+.netease li
+{
+    color: rgb(160,160,160);
+    font-size: 11px;
+    margin: 16px;
+}
